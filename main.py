@@ -39,7 +39,7 @@ paddle_rec = paddle_surface.get_rect(midbottom=(20, 200))
 paddle1_surface = pygame.Surface((12.5, 50))
 paddle1_surface.fill('white')
 paddle1_rec = paddle1_surface.get_rect(midbottom=(375, 200))
-ball = pygame.image.load('graphics/ball.png').convert_alpha()
+ball = pygame.image.load('ball.png').convert_alpha()
 ball_rec = ball.get_rect(midbottom=(200, 175))
 while True:
     hit = mixer.Sound('hit.wav')
